@@ -1,0 +1,16 @@
+.place__website {
+  display: none;
+  padding: 0;
+}
+
+@media all and (min-width: 768px) {
+  .place__website {
+    display: block;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .place__website {
+    align-self: flex-end;
+  }
+}

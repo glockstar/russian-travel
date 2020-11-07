@@ -1,0 +1,24 @@
+.footer {
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 64px 24px 118px 16px;
+  max-width: 1184px;
+}
+
+@media all and (min-width: 768px) {
+  .footer {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 88px 24px 24px;
+    min-height: 18px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .footer {
+    margin: 92px 48px 24px;
+  }
+}

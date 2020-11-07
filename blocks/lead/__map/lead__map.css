@@ -1,0 +1,22 @@
+.lead__map {
+  height: auto;
+  left: 5%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 17%;
+  width: calc(100% - 8%);
+}
+
+@media all and (min-width: 768px) {
+  .lead__map {
+    top: 8vh;
+    width: calc(100% - 8%);
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .lead__map {
+    max-width: 938px;
+  }
+}
