@@ -8,12 +8,6 @@
   position: relative;
 }
 
-@media all and (min-width: 768px) {
-  .lead__image {
-    width: calc(100vw - 24px * 2);
-  }
-}
-
 @media all and (min-width: 1024px) {
   .lead__image {
     width: calc(100vw - 48px * 2);

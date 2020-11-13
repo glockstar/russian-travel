@@ -1,6 +1,7 @@
 .place {
   display: grid;
   margin: 49px 0 0;
+  max-width: 984px;
 }
 
 @media all and (min-width: 768px) {
