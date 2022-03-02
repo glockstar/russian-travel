@@ -1,0 +1,15 @@
+.lead__image {
+  box-sizing: border-box;
+  height: auto;
+  margin: 40px auto 0;
+  min-width: 320px;
+  max-width: 984px;
+  padding: 0;
+  position: relative;
+}
+
+@media all and (min-width: 1024px) {
+  .lead__image {
+    width: calc(100vw - 48px * 2);
+  }
+}

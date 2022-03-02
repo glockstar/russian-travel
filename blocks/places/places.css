@@ -1,0 +1,12 @@
+.places {
+  box-sizing: border-box;
+  color: #fff;
+  margin: 15px 0 0;
+  padding: 0;
+}
+
+@media all and (min-width: 1280px) {
+  .places {
+    margin: 15px 48px 0;
+  }
+}

@@ -1,0 +1,12 @@
+.logo {
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  width: 142px;
+}
+
+@media all and (min-width: 768px) {
+  .logo {
+    width: 176px;
+  }
+}
