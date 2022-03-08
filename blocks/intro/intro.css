@@ -2,14 +2,14 @@
   align-self: flex-start;
   box-sizing: border-box;
   color: #fff;
-  margin: 92px 16px 0;
+  margin: 64px 16px 0;
   padding: 0;
   text-align: left;
 }
 
 @media all and (min-width: 768px) {
   .intro {
-    margin: 92px 24px 0;
+    margin: 88px 24px 0;
   }
 }
 

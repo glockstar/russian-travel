@@ -3,19 +3,20 @@
   font-style: normal;
   font-weight: 400;
   line-height: 163%;
-  margin: 25px 16px 0;
+  margin: 25px 16px;
   padding: 0;
+}
+
+.place__subtitle:last-of-type {
+  margin-bottom: 0px;
 }
 
 @media all and (min-width: 768px) {
   .place__subtitle {
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
-
-  .place__subtitle:first-of-type {
-    margin-bottom: 25px;
-  }
-}
 
 @media all and (min-width: 1024px) {
   .place__subtitle {
